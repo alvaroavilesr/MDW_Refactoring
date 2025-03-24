@@ -255,3 +255,17 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies21/movies.svg)
 
+## <em>**Versión 22**</em>
+
+- Eliminar elementos no necesarios: clase customer, eliminar String.valueOf() innecesario y usar el operador diamante <> para evitar redundancias.
+
+### <em>**Smell Code:**</em>
+
+- Redundancia => “String.valueOf()” y uso de operador diamante
+
+### <em>**Refactoring**</em>
+
+- Eliminar partes innecesarias: "String.valueOf()” y usar operador diamante
+
+![claseCustomer](/out/docs/diagrams/src/movies22/movies.svg)
+
