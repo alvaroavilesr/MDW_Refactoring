@@ -257,7 +257,7 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ## <em>**Versión 22**</em>
 
-- Eliminar elementos no necesarios: clase customer, eliminar String.valueOf() innecesario y usar el operador diamante <> para evitar redundancias.
+- Eliminar elementos no necesarios: clase Customer, eliminar String.valueOf() innecesario y usar el operador diamante <> para evitar redundancias.
 
 ### <em>**Smell Code:**</em>
 
@@ -268,4 +268,18 @@ Experto en Información => la clase responsable es la que tiene la información
 - Eliminar partes innecesarias: "String.valueOf()” y usar operador diamante
 
 ![claseCustomer](/out/docs/diagrams/src/movies22/movies.svg)
+
+## <em>**Versión 23**</em>
+
+- Cambiar Iterator por foreach: clase Customer.
+
+### <em>**Smell Code:**</em>
+
+- Complejidad innecesaria y legibilidad => uso de Iterator
+
+### <em>**Refactoring**</em>
+
+- Usar for-each en lugar de Iterator
+
+![claseCustomer](/out/docs/diagrams/src/movies23/movies.svg)
 
