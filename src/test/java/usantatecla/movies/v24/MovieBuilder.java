@@ -1,11 +1,5 @@
 package usantatecla.movies.v24;
 
-import usantatecla.movies.v21.ChildrenPrice;
-import usantatecla.movies.v21.Movie;
-import usantatecla.movies.v21.NewReleasePrice;
-import usantatecla.movies.v21.Price;
-import usantatecla.movies.v21.RegularPrice;
-
 public class MovieBuilder {
 
 	private String title;

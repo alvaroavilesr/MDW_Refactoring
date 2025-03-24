@@ -1,11 +1,5 @@
 package usantatecla.movies.v22;
 
-import usantatecla.movies.v21.ChildrenPrice;
-import usantatecla.movies.v21.Movie;
-import usantatecla.movies.v21.NewReleasePrice;
-import usantatecla.movies.v21.Price;
-import usantatecla.movies.v21.RegularPrice;
-
 public class MovieBuilder {
 
 	private String title;
@@ -36,7 +30,7 @@ public class MovieBuilder {
 		return this;
 	}
 	
-	public usantatecla.movies.v21.Movie build() {
+	public Movie build() {
 		return new Movie(title, price);
 	}
 }

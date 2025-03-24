@@ -1,8 +1,5 @@
 package usantatecla.movies.v23;
 
-import usantatecla.movies.v21.Customer;
-import usantatecla.movies.v21.Rental;
-
 import java.util.ArrayList;
 import java.util.List;
 
