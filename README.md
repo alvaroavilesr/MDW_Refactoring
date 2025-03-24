@@ -325,3 +325,17 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies26/movies.svg)
 
+## <em>**Versión 27**</em>
+
+- Mal nombre ==> “each” en métodos de clase la Customer
+
+### <em>**Smell Code:**</em>
+
+- Mal nombre ==> “each” 
+
+### <em>**Refactoring**</em>
+
+- Renombrar variable “each” por “rental”
+
+![claseCustomer](/out/docs/diagrams/src/movies27/movies.svg)
+
