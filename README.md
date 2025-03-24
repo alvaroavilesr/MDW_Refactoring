@@ -283,3 +283,17 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies23/movies.svg)
 
+## <em>**Versión 24**</em>
+
+- Simplificar if-else con operador ternario: clase NewReleasePrice.
+
+### <em>**Smell Code:**</em>
+
+- Complejidad innecesaria y legibilidad => uso de if-else
+
+### <em>**Refactoring**</em>
+
+- Usar operador ternario en lugar de if-else
+
+![claseCustomer](/out/docs/diagrams/src/movies24/movies.svg)
+
