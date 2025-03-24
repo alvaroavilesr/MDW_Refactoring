@@ -353,3 +353,18 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies28/movies.svg)
 
+## <em>**Versión 29**</em>
+
+- Repeticion de codigo: clase CustomerTest
+
+### <em>**Smell Code:**</em>
+
+- Legibilidad y codigo duplicado ==> Constantes compartidas por varios tests
+
+### <em>**Refactoring**</em>
+
+- Usar metodo setUp y hacer constantes globales
+
+![claseCustomer](/out/docs/diagrams/src/movies29/movies.svg)
+
+ 
