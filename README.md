@@ -339,3 +339,17 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies27/movies.svg)
 
+## <em>**Versión 28**</em>
+
+- Usar StringBuilder en lugar de String: clase StatementBuilder (test)
+
+### <em>**Smell Code:**</em>
+
+- Legibilidad y mal rendimiento => uso de String
+
+### <em>**Refactoring**</em>
+
+- Usar StringBuilder en lugar de concatenación de String
+
+![claseCustomer](/out/docs/diagrams/src/movies28/movies.svg)
+
