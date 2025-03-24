@@ -311,3 +311,17 @@ Experto en Información => la clase responsable es la que tiene la información
 
 ![claseCustomer](/out/docs/diagrams/src/movies25/movies.svg)
 
+## <em>**Versión 26**</em>
+
+- Division de statement() en metodos mas pequeños: clase Customer.
+
+### <em>**Smell Code:**</em>
+
+- Poca claridad y legibilidad => método largo
+
+### <em>**Refactoring**</em>
+
+- Dividir statement() en varios métodos: getHeader(), getRentalLines() y getFooter()
+
+![claseCustomer](/out/docs/diagrams/src/movies26/movies.svg)
+
